@@ -4,14 +4,14 @@
     <sid>487895216097317</sid>
     <event-sheet>GameEvents</event-sheet>
     <size>
-        <width>200</width>
+        <width>133</width>
         <height>100</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
         <vertical>500</vertical>
     </margins>
-    <unbounded-scrolling>0</unbounded-scrolling>
+    <unbounded-scrolling>1</unbounded-scrolling>
     <layers>
         <layer name="Layer 0" sid="512979983375103">
             <initially-visible>1</initially-visible>
@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>42</x>
-                        <y>46</y>
+                        <x>124</x>
+                        <y>92</y>
                         <z>0</z>
                         <width>19</width>
                         <height>17</height>
@@ -61,8 +61,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>10</x>
-                        <y>12</y>
+                        <x>5</x>
+                        <y>8</y>
                         <z>0</z>
                         <width>9</width>
                         <height>15</height>
@@ -83,8 +83,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>10</x>
-                        <y>48</y>
+                        <x>5</x>
+                        <y>30</y>
                         <z>0</z>
                         <width>9</width>
                         <height>15</height>
@@ -105,8 +105,52 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>10</x>
-                        <y>88</y>
+                        <x>5</x>
+                        <y>50</y>
+                        <z>0</z>
+                        <width>9</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.555555582</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="flower" uid="4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5</x>
+                        <y>70</y>
+                        <z>0</z>
+                        <width>9</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.555555582</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="flower2" uid="5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5</x>
+                        <y>93</y>
                         <z>0</z>
                         <width>9</width>
                         <height>15</height>
