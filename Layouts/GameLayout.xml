@@ -4,8 +4,8 @@
     <sid>487895216097317</sid>
     <event-sheet>GameEvents</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>200</width>
+        <height>100</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,14 +39,80 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>179</x>
-                        <y>99</y>
+                        <x>42</x>
+                        <y>46</y>
                         <z>0</z>
-                        <width>82.433570862</width>
-                        <height>73.756355286</height>
+                        <width>19</width>
+                        <height>17</height>
                         <depth>0</depth>
                         <hotspotX>0.526315808</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="flower" uid="1">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10</x>
+                        <y>12</y>
+                        <z>0</z>
+                        <width>9</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.555555582</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="flower2" uid="2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10</x>
+                        <y>48</y>
+                        <z>0</z>
+                        <width>9</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.555555582</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="flower3" uid="3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10</x>
+                        <y>88</y>
+                        <z>0</z>
+                        <width>9</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.555555582</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
