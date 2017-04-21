@@ -9,7 +9,9 @@
     <app-id>bul.ikana.polumination</app-id>
     <unique-id>2h8lfy9isu45h</unique-id>
     <saved-with-version>23900</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -26,7 +28,7 @@
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Scale inner</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
         <prop name="Orientations">Landscape</prop>
@@ -34,16 +36,36 @@
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
         <prop name="Preview browser">(default)</prop>
-        <prop name="Sampling">Linear</prop>
+        <prop name="Sampling">Point</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="hummingbird" sid="878966234388828">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660119693364903" speed="5">
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.529412" original-source="F:\Downloads\hummingbird.png">
+                        <collision-poly>
+                            <point x="0.263158" y="0.294118" />
+                            <point x="0.473684" y="0.352941" />
+                            <point x="1" y="0" />
+                            <point x="0.736842" y="0.470588" />
+                            <point x="0.894737" y="0.882353" />
+                            <point x="0.473684" y="0.705882" />
+                            <point x="0.0526316" y="0.941176" />
+                            <point x="0.315789" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>GameLayout.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>GameEvents.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
