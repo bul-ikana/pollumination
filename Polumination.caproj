@@ -10,16 +10,20 @@
     <unique-id>2h8lfy9isu45h</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors />
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
+        <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>133</width>
-        <height>100</height>
+        <width>160</width>
+        <height>120</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -71,7 +75,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flower" sid="907163755392304">
+        <object-type name="redFlower" sid="907163755392304">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612428941847179" speed="5">
@@ -90,7 +94,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flower2" sid="856585253218155">
+        <object-type name="blueFlower" sid="856585253218155">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942105239715544" speed="5">
@@ -109,7 +113,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flower3" sid="803683045750274">
+        <object-type name="yellowFlower" sid="803683045750274">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="420990969565079" speed="5">
@@ -127,6 +131,118 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="plant" sid="276935632647736">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512189548929143" speed="5">
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.5" original-source="F:\Downloads\bulb.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.0714286" />
+                            <point x="0.444444" y="0" />
+                            <point x="0.888889" y="0.0714286" />
+                            <point x="0.888889" y="0.5" />
+                            <point x="0.777778" y="0.857143" />
+                            <point x="0.444444" y="1" />
+                            <point x="0.222222" y="0.857143" />
+                            <point x="0.111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="redParticles" sid="723160845412915">
+            <plugin id="Particles" />
+            <effects>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+            </effects>
+            <texture />
+        </object-type>
+        <object-type name="redOrb" sid="948684697444084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474455276235589" speed="5">
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.545455" original-source="F:\Downloads\bulb.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.181818" />
+                            <point x="0.454545" y="0" />
+                            <point x="0.818182" y="0.181818" />
+                            <point x="1" y="0.454545" />
+                            <point x="0.818182" y="0.818182" />
+                            <point x="0.454545" y="1" />
+                            <point x="0.181818" y="0.818182" />
+                            <point x="0" y="0.454545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yellowOrb" sid="273989320954178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="406662784077801" speed="5">
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.545455" original-source="F:\Downloads\redorb.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.181818" />
+                            <point x="0.454545" y="0" />
+                            <point x="0.818182" y="0.181818" />
+                            <point x="1" y="0.454545" />
+                            <point x="0.818182" y="0.818182" />
+                            <point x="0.454545" y="1" />
+                            <point x="0.181818" y="0.818182" />
+                            <point x="0" y="0.454545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yellowParticles" sid="691438688796062">
+            <plugin id="Particles" />
+            <effects>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+            </effects>
+            <texture />
+        </object-type>
+        <object-type name="blueOrb" sid="913597839826267">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621355151501184" speed="5">
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.545455" original-source="F:\Downloads\bluoeg.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.181818" />
+                            <point x="0.454545" y="0" />
+                            <point x="0.818182" y="0.181818" />
+                            <point x="1" y="0.454545" />
+                            <point x="0.818182" y="0.818182" />
+                            <point x="0.454545" y="1" />
+                            <point x="0.181818" y="0.818182" />
+                            <point x="0" y="0.454545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blueParticles" sid="570764388939501">
+            <plugin id="Particles" />
+            <effects>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+            </effects>
+            <texture />
         </object-type>
     </object-folder>
     <families />
