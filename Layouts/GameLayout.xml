@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>124</x>
-                        <y>92</y>
+                        <x>32</x>
+                        <y>20</y>
                         <z>0</z>
                         <width>19</width>
                         <height>17</height>
@@ -61,8 +61,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5</x>
-                        <y>8</y>
+                        <x>7</x>
+                        <y>10</y>
                         <z>0</z>
                         <width>9</width>
                         <height>15</height>
@@ -83,7 +83,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5</x>
+                        <x>7</x>
                         <y>30</y>
                         <z>0</z>
                         <width>9</width>
@@ -105,7 +105,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5</x>
+                        <x>7</x>
                         <y>50</y>
                         <z>0</z>
                         <width>9</width>
@@ -127,7 +127,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5</x>
+                        <x>7</x>
                         <y>70</y>
                         <z>0</z>
                         <width>9</width>
@@ -149,8 +149,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5</x>
-                        <y>93</y>
+                        <x>7</x>
+                        <y>90</y>
                         <z>0</z>
                         <width>9</width>
                         <height>15</height>

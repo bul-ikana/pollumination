@@ -43,7 +43,7 @@
         <object-type name="hummingbird" sid="878966234388828">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660119693364903" speed="5">
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660119693364903" speed="10">
                     <frame duration="1" hotspotX="0.526316" hotspotY="0.529412" original-source="F:\Downloads\hummingbird.png">
                         <collision-poly>
                             <point x="0.263158" y="0.294118" />
@@ -53,6 +53,18 @@
                             <point x="0.894737" y="0.882353" />
                             <point x="0.473684" y="0.705882" />
                             <point x="0.0526316" y="0.941176" />
+                            <point x="0.315789" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.529412" original-source="F:\Downloads\h2.png">
+                        <collision-poly>
+                            <point x="0.263158" y="0.294118" />
+                            <point x="0.473684" y="0.352941" />
+                            <point x="0.736842" y="0.294118" />
+                            <point x="1" y="0.470588" />
+                            <point x="0.894737" y="0.882353" />
+                            <point x="0.473684" y="1" />
+                            <point x="0.473684" y="0.470588" />
                             <point x="0.315789" y="0.470588" />
                         </collision-poly>
                     </frame>
