@@ -1,4 +1,4 @@
-# ![](Animations/hummingbird/Deafult/000.png) Pollumination
+# ![](Animations/hummingbird/Default/000.png) Pollumination
 
 ## Lights, colors, and hummingbirds
 
